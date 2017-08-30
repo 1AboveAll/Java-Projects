@@ -1,7 +1,4 @@
-import Programs.DaysConverter;
-import Programs.LargestOfThree;
-import Programs.MinimumOfThree;
-import Programs.StudentPercentage;
+import Programs.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,9 +8,10 @@ public class Main {
 //        dc.convertDays();
 //        MinimumOfThree mot=new MinimumOfThree();
 //        mot.printMinimum();
-        LargestOfThree lot=new LargestOfThree();
-        lot.printLargest();
-
+//        LargestOfThree lot=new LargestOfThree();
+//        lot.printLargest();
+        TableOfNumber ton=new TableOfNumber();
+        ton.table();
     }
 
 }
